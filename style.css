@@ -1,0 +1,47 @@
+body{
+    Background-color:#D1462F;
+    color:white;
+}
+
+h1{
+    text-align:center;
+}
+
+a:link{
+    color:#771D0D;
+}
+
+a:visited{
+    color:#3A1009;
+}
+
+a:hover{
+    color:white;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+overflow:hidden;
+background-color:#C6442D;
+text-align:center;
+}
+
+ul li{
+  display:inline-block;
+}
+
+ul li a{
+  display:block;
+  font-size:23px;
+  color:white;
+  text-align:center;
+  padding:19px 30px;
+  text-decoration:none;
+}
+
+.content{
+    display:flex;
+    justify-content:center;
+}
