@@ -1,4 +1,5 @@
 body{
+    margin:0;
     Background-color:#D1462F;
     color:white;
 }
@@ -43,5 +44,17 @@ ul li a{
 
 .content{
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+
+.banner img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.computer img{
+    width:200px;
+    padding:2%;
 }
